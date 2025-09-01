@@ -1,3 +1,4 @@
+import 'package:coffee_shop_flutter/screens/menu_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff1e3932)),
       ),
+      home: MenuScreen(),
     );
   }
 }
